@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0439998242DD2092DD0F9F19D647B882 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227844122D7A44E4A0D30DB6512CADCD /* ReplaceMe.swift */; };
 		1C181C47B3E1F9E0C40A2F2590BB4D30 /* Pods-HelloLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEA9747B0DB14EBD995BDAFB2182B1 /* Pods-HelloLib_Example-dummy.m */; };
 		26F3E71C90847E7ACC5C7991703EDB53 /* HelloLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E754AA2417A5FBAEDF4B8E51361FF3E8 /* HelloLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A508DF8ECD5D3E58C6C1449148CA436 /* Pods-HelloLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033C5CA3E80CF2C09D7B83CEB041D3 /* Pods-HelloLib_Tests-dummy.m */; };
@@ -15,7 +14,8 @@
 		6E03DF9F6557188A7F3712E110C60A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8D117B599F60443DCFEEBA8BD321B0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9BE53DA3FA9A4D3DD229F945C819C6BD /* Pods-HelloLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B5106CAD775CED808DC2CD682A2075 /* Pods-HelloLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDE22CB4C1B65D046EED94795642162B /* HelloLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34B73CB983D0FA1A4143124B5E59B1 /* HelloLib-dummy.m */; };
+		B1065121FDB1D588BD34994CC8982C35 /* HelloWorldT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA6EFE9BE6716E01A3E99ACBBBF5E /* HelloWorldT.swift */; };
+		B17EBC2CCFA5B7D5D76B10FCB06EB9C9 /* HelloLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34B73CB983D0FA1A4143124B5E59B1 /* HelloLib-dummy.m */; };
 		D8248120B89B8221BD15426D3E8EC433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		02E9A988B4429D82E53D596566583F92 /* HelloLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HelloLib.modulemap; sourceTree = "<group>"; };
 		113A7083E1C21D27040F7DCBA6D7EF38 /* Pods-HelloLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A8287B7C691A38345C8548CC110CA12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		227844122D7A44E4A0D30DB6512CADCD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		2EFD6E8EB57FCCDBD1EE64367DDAA6ED /* Pods-HelloLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		32180039CA02496500E30F082B5D5485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -48,6 +47,7 @@
 		404A61CA3BB8C4E54215D3EA7C936372 /* Pods-HelloLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D2B41CF205279C5D8D8CEDC4C550291 /* Pods_HelloLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D79F4572D16E4197ECA06267AE113E5 /* Pods-HelloLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4ECCA6EFE9BE6716E01A3E99ACBBBF5E /* HelloWorldT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelloWorldT.swift; sourceTree = "<group>"; };
 		5535B97F7AF202ACF4B06966D1A70BF8 /* Pods-HelloLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C34B73CB983D0FA1A4143124B5E59B1 /* HelloLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloLib-dummy.m"; sourceTree = "<group>"; };
 		971416A38AD0C24BC60C9040D6B65710 /* HelloLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HelloLib.xcconfig; sourceTree = "<group>"; };
@@ -117,14 +117,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		12900717F47912B249F329FF18690DBE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				227844122D7A44E4A0D30DB6512CADCD /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		19683BF35F9AF05317ADF008461F3DB7 /* Pods-HelloLib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +153,14 @@
 				9C9BD368A43F1B1A2A256E2E6F0ADE16 /* Products */,
 				34FDB3DBFFABDA83C1CA2F00CEC43253 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8D0D0216D381393FFEF0F4228E21A2EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA6EFE9BE6716E01A3E99ACBBBF5E /* HelloWorldT.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		9C9BD368A43F1B1A2A256E2E6F0ADE16 /* Products */ = {
@@ -224,7 +224,7 @@
 		ED87792ED126B0E2A2340060F041C422 /* HelloLib */ = {
 			isa = PBXGroup;
 			children = (
-				12900717F47912B249F329FF18690DBE /* Classes */,
+				8D0D0216D381393FFEF0F4228E21A2EF /* Classes */,
 			);
 			path = HelloLib;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5E30FF2D4DF23A5578A81DBE955A3E8 /* Build configuration list for PBXNativeTarget "HelloLib" */;
 			buildPhases = (
-				33D6C16AD01F5A46F4C8A1558732F302 /* Sources */,
+				89887071B64FEA95D3451483BA73C59D /* Sources */,
 				3CD92766F9F9027BE6A54BEFDDA99200 /* Frameworks */,
 				9B4EC002E82353EB3EAF722F5FDED932 /* Headers */,
 			);
@@ -341,12 +341,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33D6C16AD01F5A46F4C8A1558732F302 /* Sources */ = {
+		89887071B64FEA95D3451483BA73C59D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE22CB4C1B65D046EED94795642162B /* HelloLib-dummy.m in Sources */,
-				0439998242DD2092DD0F9F19D647B882 /* ReplaceMe.swift in Sources */,
+				B17EBC2CCFA5B7D5D76B10FCB06EB9C9 /* HelloLib-dummy.m in Sources */,
+				B1065121FDB1D588BD34994CC8982C35 /* HelloWorldT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

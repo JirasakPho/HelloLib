@@ -1,0 +1,14 @@
+PODS:
+  - HelloLib (0.1.0)
+
+DEPENDENCIES:
+  - HelloLib (from `../`)
+
+EXTERNAL SOURCES:
+  HelloLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HelloLib: b80fc87e54e2824de8aae9acb5536d586c59e131
+
+COCOAPODS: 0.39.0

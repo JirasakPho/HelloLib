@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HelloLib_Example', :exclusive => true do
+  pod 'HelloLib', :path => '../'
+end
+
+target 'HelloLib_Tests', :exclusive => true do
+  pod 'HelloLib', :path => '../'
+
+  
+end

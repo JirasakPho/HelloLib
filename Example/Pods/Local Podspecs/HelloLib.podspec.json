@@ -1,0 +1,19 @@
+{
+  "name": "HelloLib",
+  "version": "0.1.0",
+  "summary": "A short description of HelloLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HelloLib",
+  "license": "MIT",
+  "authors": {
+    "Jirasak": "jp_jee@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HelloLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HelloLib/Classes/**/*"
+}
